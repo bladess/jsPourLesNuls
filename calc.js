@@ -13,9 +13,13 @@ monTitre2.textContent = "Le produit de vos nombres est : "+mult(nombreUn,nombreD
   //  alert('Aïe, arrêtez de cliquer !!');
 //}
 
-function add(n1, n2){
+function add(n1, n2){ 
+	//fonction qui retourne la somme de n1 et de n2
 	return n1 + n2;
 }
 function mult(n1, n2){
+	//fonction qui retourne le produit de n1 et de n2
 	return n1 * n2;
 }
+
+
